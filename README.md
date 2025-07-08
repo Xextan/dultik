@@ -11,5 +11,5 @@ this is a (*very bad*) xextan parser. it returns all valid parses.
 1. clone
 2. `cd dultik/src`
 3. either
-   - `ghci` and do something like `parse (text <* eof) "xoi len"`
+   - `ghci` then `:l Xextan` and do something like `parse (text <* eof) "xoi len"`
    - edit `app/Main.hs` to parse whatever you want and then compile+run with `ghc -O2 ../app/Main.hs && ../app/Main`
