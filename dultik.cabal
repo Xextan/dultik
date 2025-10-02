@@ -59,7 +59,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  Parser, Xextan
+    exposed-modules:  Parser, Xextan, Token, Tokenizer
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -84,7 +84,7 @@ executable dultik
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules: Parser, Xextan
+    other-modules: Parser, Xextan, Token, Tokenizer
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
